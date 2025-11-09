@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+  <!-- Top blue bar with title + links -->
+  <header class="topbar">
+    <div class="wrap">
+      <h1>My Portfolio</h1>
+      <nav class="topnav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap page">
+    <!-- About -->
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <img class="avatar" src="ishita.jpg/ishita.jpg.jpg" alt="Profile">
+      <p class="intro">Hello! My name is Ishita Singh. I am learning web development and this is my first portfolio website.</p>
+    </section>
+
+    <hr>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <h2>My Skills</h2>
+      <table class="skills">
+        <thead>
+          <tr>
+            <th>Skill</th>
+            <th>Level</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>HTML</td><td>Beginner</td></tr>
+          <tr><td>CSS</td><td>Beginner</td></tr>
+          <tr><td>JavaScript</td><td>Learning</td></tr>
+          <tr><td>Python</td><td>Beginner</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <hr>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <h2>My Projects</h2>
+      <div class="card"> 
+        <h3>Project 1</h3>
+        <p>A simple HTML & CSS webpage.</p>
+      </div>
+      <div class="card">
+        <h3>Project 2</h3>
+        <p>Ngo locator web map.</p>
+      </div>
+    </section>
+
+    <hr>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <h2>Contact Me</h2>
+      <form class="contact-box">
+        <div class="row">
+          <label>Name:</label>
+          <input type="text" placeholder="Enter your name">
+        </div>
+        <div class="row">
+          <label>Email:</label>
+          <input type="email" placeholder="Enter your email">
+        </div>
+        <div class="row">
+          <label>Message:</label>
+          <textarea rows="3" placeholder="Write your message"></textarea>
+        </div>
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <a class="backto" href="#top">↑ Back to Top</a>
+
+  <footer class="footer"></footer>
+</body>
+</html>
