@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Foodie Dark — Food Delivery</title>
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page">
+    <!-- Header -->
+    <header class="header">
+      <div class="brand">Foodie<span class="dot">.</span></div>
+      <nav class="nav">
+        <a href="#categories">Categories</a>
+        <a href="#restaurants">Restaurants</a>
+        <a href="#offers">Offers</a>
+        <a href="#testimonials">Testimonials</a>
+      </nav>
+      <div class="auth">
+        <button class="btn btn-ghost">Login</button>
+        <button class="btn btn-primary">Sign Up</button>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-left">
+        <h1>Delicious food,<br>delivered to you</h1>
+        <p class="lead">Order from nearby restaurants and get fresh meals delivered fast — in style.</p>
+
+        <form class="search" role="search" aria-label="Search form">
+          <input type="text" placeholder="Enter your location or dish" aria-label="Location or dish">
+          <select aria-label="Category">
+            <option>All Categories</option>
+            <option>Pizza</option>
+            <option>Burgers</option>
+            <option>Sushi</option>
+          </select>
+          <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+
+        <div class="badges">
+          <div class="badge">⭐ Top Rated</div>
+          <div class="badge">🚚 Fast Delivery</div>
+          <div class="badge">💳 Easy Payment</div>
+        </div>
+      </div>
+
+      <div class="hero-right" aria-hidden="true">
+        <!-- hero image -->
+        <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?q=80&w=1400&auto=format&fit=crop" alt="Delicious plated food">
+      </div>
+    </section>
+
+    <!-- Categories -->
+    <section id="categories" class="section">
+      <h2>Browse by Category</h2>
+      <div class="categories">
+        <div class="cat">
+          <img src="https://images.unsplash.com/photo-1593560708927-9b5c3b0bd19e?q=80&w=800&auto=format&fit=crop" alt="pizza">
+          <span>Pizza</span>
+        </div>
+        <div class="cat">
+          <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?q=80&w=800&auto=format&fit=crop" alt="burger">
+          <span>Burgers</span>
+        </div>
+        <div class="cat">
+          <img src="https://images.unsplash.com/photo-1543353071-087092ec3931?q=80&w=800&auto=format&fit=crop" alt="sushi">
+          <span>Sushi</span>
+        </div>
+        <div class="cat">
+          <img src="https://images.unsplash.com/photo-1604908177522-5f2f1535b97d?q=80&w=800&auto=format&fit=crop" alt="indian">
+          <span>Indian</span>
+        </div>
+        <div class="cat">
+          <img src="https://images.unsplash.com/photo-1542444459-db9f5b3249b6?q=80&w=800&auto=format&fit=crop" alt="dessert">
+          <span>Desserts</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Restaurants -->
+    <section id="restaurants" class="section">
+      <h2>Featured Restaurants</h2>
+      <div class="grid">
+        <article class="card">
+          <img class="thumb" src="https://images.unsplash.com/photo-1552566626-52f8b828add9?q=80&w=1200&auto=format&fit=crop" alt="Pizza Palace">
+          <div class="card-body">
+            <h3>Pizza Palace</h3>
+            <p class="muted">Pizza • Italian — ⭐ 4.8</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="thumb" src="https://images.unsplash.com/photo-1550547660-d9450f859349?q=80&w=1200&auto=format&fit=crop" alt="Burger Hub">
+          <div class="card-body">
+            <h3>Burger Hub</h3>
+            <p class="muted">Burgers • Fast Food — ⭐ 4.6</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="thumb" src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=800&auto=format&fit=crop" alt="Sushi World">
+          <div class="card-body">
+            <h3>Sushi World</h3>
+            <p class="muted">Sushi • Japanese — ⭐ 4.7</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="thumb" src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=800&auto=format&fit=crop" alt="Spice Route">
+          <div class="card-body">
+            <h3>Spice Route</h3>
+            <p class="muted">Indian • Curry — ⭐ 4.5</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Offers -->
+    <section id="offers" class="section">
+      <h2>Promo Offers</h2>
+      <div class="offers">
+        <div class="offer">
+          <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?q=80&w=800&auto=format&fit=crop" alt="promo 1">
+          <div class="offer-text">
+            <strong>30% OFF</strong>
+            <p class="muted">on your first order</p>
+          </div>
+        </div>
+
+        <div class="offer">
+          <img src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=800&auto=format&fit=crop" alt="promo 2">
+          <div class="offer-text">
+            <strong>Free Delivery</strong>
+            <p class="muted">above $20</p>
+          </div>
+        </div>
+
+        <div class="offer">
+          <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=800&auto=format&fit=crop" alt="promo 3">
+          <div class="offer-text">
+            <strong>Buy 1 Get 1</strong>
+            <p class="muted">on Burgers every Friday</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="section">
+      <h2>What Our Customers Say</h2>
+      <div class="testimonials">
+        <div class="testi">
+          <img class="avatar" src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=400&auto=format&fit=crop" alt="Sarah">
+          <h4>Sarah M.</h4>
+          <p class="muted">"Fast delivery and great taste. Highly recommend!"</p>
+        </div>
+
+        <div class="testi">
+          <img class="avatar" src="https://images.unsplash.com/photo-1545996124-1f88b8d3b9bd?q=80&w=400&auto=format&fit=crop" alt="James">
+          <h4>James L.</h4>
+          <p class="muted">"Excellent variety and easy checkout."</p>
+        </div>
+
+        <div class="testi">
+          <img class="avatar" src="https://images.unsplash.com/photo-1545996124-34a7b6d7d1c1?q=80&w=400&auto=format&fit=crop" alt="Priya">
+          <h4>Priya S.</h4>
+          <p class="muted">"App is very user friendly and helpful support."</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div>© <span id="year"></span> Foodie Dark • Made with ❤️</div>
+    </footer>
+  </div>
+
+  <script>
+    // set current year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
